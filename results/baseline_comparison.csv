@@ -1,4 +1,4 @@
 Algorithm,Time slots,Conflict violations,Valid coloring
-Greedy,26,0,True
+Greedy,25,0,True
 Welsh-Powell,18,0,True
 DSATUR,17,0,True
