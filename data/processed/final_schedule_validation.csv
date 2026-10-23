@@ -1,0 +1,3 @@
+Algorithm,Graph exams,Schedule rows,Unique scheduled exams,Missing graph exams,Extra exams,Duplicate exam rows,Periods used,Graph conflict violations,Graph feasible
+Adaptive v3,800,800,800,0,0,0,17,0,True
+CP-SAT,800,800,800,0,0,0,16,0,True
