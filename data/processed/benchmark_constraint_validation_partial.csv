@@ -1,0 +1,21 @@
+Algorithm,Constraint,Violations,Examples,Detail
+Adaptive v3,Allowed calendar slots,0,,"Checks dates, weekdays/Saturday and start times."
+Adaptive v3,Fixed dates,2,F321Q6E1 scheduled 1995-01-23; F321T6E1 scheduled 1995-01-28,Explicit date requirements.
+Adaptive v3,Date-range restrictions,2,H21M01E1 scheduled 1995-01-30; H2CM04E1 scheduled 1995-01-26,Exam must fall within its specified date range.
+Adaptive v3,Before-date restrictions,0,,Exam must occur before the specified date.
+Adaptive v3,Morning-only exams,0,,09:00 is treated as the morning slot.
+Adaptive v3,Thursday afternoon restriction,1,V13101E1 scheduled 1995-01-25 09:00,Thursday is weekday index 3.
+Adaptive v3,Precedence pairs,2,F13P03E1 must precede F13X03E1; F13P05E1 must precede F13X04E1,"Checks chronological order, not room allocation."
+Adaptive v3,Immediate succession,1,H3BFM2E1 period 3 -> H3BFM2E2 period 12,Checks adjacent period indices.
+Adaptive v3,Enrolment-to-schedule coverage,0,,Every enrolled exam must be scheduled.
+Adaptive v3,Student one-period gap,995,A920097599: Q32302E1 / Q3A201E1; A920340635: V13159E1 / V6B329E1; A920396285: AAA011E1 / R22212E1; A920574816: V62200E1 / V6B329E1; A920641200: M1B363E1 / V13185E1; A920722244: Q83184E1 / V6B329E1; A921289681: M1B363E1 / M1B382E1; A921388641: Q33307E1 / V6A100E1,Counts student-level pairs on the same date in adjacent periods.
+CP-SAT,Allowed calendar slots,0,,"Checks dates, weekdays/Saturday and start times."
+CP-SAT,Fixed dates,0,,Explicit date requirements.
+CP-SAT,Date-range restrictions,0,,Exam must fall within its specified date range.
+CP-SAT,Before-date restrictions,0,,Exam must occur before the specified date.
+CP-SAT,Morning-only exams,0,,09:00 is treated as the morning slot.
+CP-SAT,Thursday afternoon restriction,0,,Thursday is weekday index 3.
+CP-SAT,Precedence pairs,0,,"Checks chronological order, not room allocation."
+CP-SAT,Immediate succession,0,,Checks adjacent period indices.
+CP-SAT,Enrolment-to-schedule coverage,0,,Every enrolled exam must be scheduled.
+CP-SAT,Student one-period gap,0,,Counts student-level pairs on the same date in adjacent periods.
