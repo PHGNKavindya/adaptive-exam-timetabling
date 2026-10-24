@@ -1,0 +1,3 @@
+Algorithm,Scheduled exams,Missing exams out of 800,Enrolled exams absent from schedule,Periods used,Coverage complete,Direct conflict pairs,Adjacent same-day violation pairs,Coincidence groups passed,Coincidence groups failed,Unresolved coincidence groups
+Adaptive v3,800,0,0,17,True,54,995,4,27,2
+CP-SAT (hard student-gap),800,0,0,16,True,67,0,31,0,2

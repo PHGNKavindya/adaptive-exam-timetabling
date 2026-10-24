@@ -1,0 +1,29 @@
+﻿FINAL RESEARCH RESULTS
+======================
+
+Dataset:
+University of Nottingham examination timetabling benchmark.
+
+CP-SAT schedule:
+- Exams scheduled: 800/800
+- Periods used: 16
+- Missing exams: 0
+- Direct conflict violations: 0
+- Adjacent same-day student-gap violations: 0
+- Special benchmark-rule checks: 47 passed, 0 failed
+- Solver status: FEASIBLE; optimality not proven
+
+Comparison with Adaptive v3:
+- Adaptive v3 periods: 17
+- CP-SAT periods: 16
+- Reduction: 1 period (5.88%)
+- Adaptive v3 adjacent same-day student-gap violations: 995
+
+Limitations:
+- Two coincidence groups remain unresolved because of apparent source-rule contradictions.
+- Full benchmark compliance has not been established.
+- The CP-SAT solution is feasible but is not proven optimal.
+- Earlier heuristic results require consistent revalidation before making definitive performance claims.
+
+Conclusion:
+CP-SAT produced a feasible 16-period schedule for all 800 examinations, with no direct conflict violations or adjacent same-day student-gap violations. It used one fewer period than the recorded Adaptive v3 result. However, unresolved source-rule contradictions and the lack of an optimality proof limit the conclusions.
